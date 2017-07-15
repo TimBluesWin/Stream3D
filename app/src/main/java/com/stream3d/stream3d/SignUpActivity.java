@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class SignUpActivity extends AppCompatActivity {
 
@@ -27,13 +28,17 @@ public class SignUpActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //save the data input
-                extra.putString("name", name.getText().toString());
-                extra.putString("username", username.getText().toString());
-                extra.putString("password", password.getText().toString());
-                extra.putString("confirmPassword", confirmPassword.getText().toString());
-                Intent intent = new Intent(SignUpActivity.this, WelcomeActivity.class);
-                intent.putExtras(extra);
-                startActivity(intent);
+                String stringName = name.getText().toString();
+                String stringUser = username.getText().toString();
+                String stringPassword = password.getText().toString();
+                String stringConfirmPassword = confirmPassword.getText().toString();
+
+                if(!stringPassword.equals(stringConfirmPassword))
+                {
+                    Toast pass = Toast.makeText(SignUpActivity.this, "Passwords don't match!", Toast.LENGTH_SHORT);
+                    pass.show();
+                }
+
             }
         });
 
