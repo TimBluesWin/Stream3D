@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 public class SignUpActivity extends AppCompatActivity {
 
+    Database d = new Database(this);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +39,15 @@ public class SignUpActivity extends AppCompatActivity {
                 {
                     Toast pass = Toast.makeText(SignUpActivity.this, "Passwords don't match!", Toast.LENGTH_SHORT);
                     pass.show();
+                }
+                else
+                {
+                    Users u = new Users();
+                    u.setName(stringName);
+                    u.setUser(stringUser);
+                    u.setPassword(stringPassword);
+
+                    d.insertUser(u);
                 }
 
             }
