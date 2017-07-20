@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 public class WelcomeActivity extends AppCompatActivity {
 
+    Database db = new Database(this);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +26,9 @@ public class WelcomeActivity extends AppCompatActivity {
         String username = extra.getString("username");
         String password = extra.getString("password");
 
-        if((username.equals("adreedbert")) && (password.equals("adre"))) {
+        String pass = db.searchPass(username);
+        if(pass.equals(password))
+        {
             nameuser.setText("Welcome to Stream3D");
 
             Toast.makeText(WelcomeActivity.this, "Welcome "+ username + " !", Toast.LENGTH_LONG).show();
