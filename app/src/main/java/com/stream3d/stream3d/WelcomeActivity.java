@@ -6,8 +6,11 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import org.gaminganywhere.gaclient.MainActivity;
+
 
 public class WelcomeActivity extends AppCompatActivity {
 
@@ -19,6 +22,7 @@ public class WelcomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
 
         TextView nameuser = (TextView) findViewById(R.id.nameuser);
+        Button gaButton = (Button) findViewById(R.id.button);
 
         //get the intent
         Intent intent = getIntent();
@@ -49,5 +53,16 @@ public class WelcomeActivity extends AppCompatActivity {
                     .setActionTextColor(Color.BLUE)
                     .show();
         }
+        gaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //save the data input
+                Intent intent2 = new Intent(WelcomeActivity.this, MainActivity.class);
+                //intent.putExtras(extra);
+                startActivity(intent2);
+            }
+        });
+
+
     }
 }

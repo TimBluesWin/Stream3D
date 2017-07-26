@@ -25,9 +25,9 @@ public class HomeActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     //save the data input
-                    Intent intent = new Intent(HomeActivity.this, WelcomeActivity.class);
+                    Intent intent2 = new Intent(HomeActivity.this, WelcomeActivity.class);
                     //intent.putExtras(extra);
-                    startActivity(intent);
+                    startActivity(intent2);
                 }
             });
 

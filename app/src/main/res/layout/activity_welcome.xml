@@ -21,4 +21,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameuser"
+        android:layout_below="@+id/nameuser"
+        android:layout_marginTop="36dp"
+        android:text="Stream3D" />
+
 </RelativeLayout>

@@ -1,0 +1,116 @@
+org.gaminganywhere.gaclient.GAClient
+org.gaminganywhere.gaclient.GAClient: void setScreenDimension(int,int)
+org.gaminganywhere.gaclient.GAClient: void kickWatchdog()
+org.gaminganywhere.gaclient.GAClient: void showToast(java.lang.String)
+org.gaminganywhere.gaclient.GAClient: void goBack(int)
+org.gaminganywhere.gaclient.GAClient: void requestRender()
+org.gaminganywhere.gaclient.GAClient: java.lang.Object initAudio(java.lang.String,int,int,boolean)
+org.gaminganywhere.gaclient.GAClient: android.media.MediaCodec startAudioDecoder()
+org.gaminganywhere.gaclient.GAClient: int decodeAudio(byte[],int,long,int)
+org.gaminganywhere.gaclient.GAClient: android.media.MediaFormat initVideo(java.lang.String,int,int)
+org.gaminganywhere.gaclient.GAClient: android.media.MediaFormat videoSetByteBuffer(java.lang.String,byte[],int)
+org.gaminganywhere.gaclient.GAClient: android.media.MediaCodec startVideoDecoder()
+org.gaminganywhere.gaclient.GAClient: int decodeVideo(byte[],int,long,boolean,int)
+org.gaminganywhere.gaclient.GAClient: boolean initGAClient(java.lang.Object)
+org.gaminganywhere.gaclient.GAClient: void resetConfig()
+org.gaminganywhere.gaclient.GAClient: void setProtocol(java.lang.String)
+org.gaminganywhere.gaclient.GAClient: void setHost(java.lang.String)
+org.gaminganywhere.gaclient.GAClient: void setPort(int)
+org.gaminganywhere.gaclient.GAClient: void setObjectPath(java.lang.String)
+org.gaminganywhere.gaclient.GAClient: void setRTPOverTCP(boolean)
+org.gaminganywhere.gaclient.GAClient: void setCtrlEnable(boolean)
+org.gaminganywhere.gaclient.GAClient: void setCtrlProtocol(boolean)
+org.gaminganywhere.gaclient.GAClient: void setCtrlPort(int)
+org.gaminganywhere.gaclient.GAClient: void setBuiltinAudioInternal(boolean)
+org.gaminganywhere.gaclient.GAClient: void setBuiltinVideoInternal(boolean)
+org.gaminganywhere.gaclient.GAClient: void setAudioCodec(int,int)
+org.gaminganywhere.gaclient.GAClient: void setDropLateVideoFrame(int)
+org.gaminganywhere.gaclient.GAClient: void sendKeyEvent(boolean,int,int,int,int)
+org.gaminganywhere.gaclient.GAClient: void sendMouseKey(boolean,int,int,int)
+org.gaminganywhere.gaclient.GAClient: void sendMouseMotion(int,int,int,int,int,boolean)
+org.gaminganywhere.gaclient.GAClient: void sendMouseWheel(int,int)
+org.gaminganywhere.gaclient.GAClient: void GLresize(int,int)
+org.gaminganywhere.gaclient.GAClient: boolean GLrenderInternal()
+org.gaminganywhere.gaclient.GAClient: int audioBufferFill(byte[],int)
+org.gaminganywhere.gaclient.GAClient: boolean rtspConnect()
+org.gaminganywhere.gaclient.GAClient: void rtspDisconnect()
+org.gaminganywhere.gaclient.MainActivity
+org.gaminganywhere.gaclient.MainActivity: MainActivity()
+org.gaminganywhere.gaclient.MainActivity: void onClick(android.view.View)
+org.gaminganywhere.gaclient.PlayerActivity
+org.gaminganywhere.gaclient.PlayerActivity: PlayerActivity()
+org.gaminganywhere.gaclient.R
+org.gaminganywhere.gaclient.R$array
+org.gaminganywhere.gaclient.R$array: int audio_channels
+org.gaminganywhere.gaclient.R$array: int audio_samplerate
+org.gaminganywhere.gaclient.R$array: int codec_audio
+org.gaminganywhere.gaclient.R$array: int codec_video
+org.gaminganywhere.gaclient.R$array: int protocol_main
+org.gaminganywhere.gaclient.R$array: int protocol_transport
+org.gaminganywhere.gaclient.R$attr
+org.gaminganywhere.gaclient.R$attr: int buttonBarButtonStyle
+org.gaminganywhere.gaclient.R$attr: int buttonBarStyle
+org.gaminganywhere.gaclient.R$color
+org.gaminganywhere.gaclient.R$color: int black_overlay
+org.gaminganywhere.gaclient.R$dimen
+org.gaminganywhere.gaclient.R$dimen: int activity_horizontal_margin
+org.gaminganywhere.gaclient.R$dimen: int activity_vertical_margin
+org.gaminganywhere.gaclient.R$drawable
+org.gaminganywhere.gaclient.R$drawable: int ic_launcher
+org.gaminganywhere.gaclient.R$drawable: int mouse32
+org.gaminganywhere.gaclient.R$drawable: int psp_circle
+org.gaminganywhere.gaclient.R$drawable: int psp_cross
+org.gaminganywhere.gaclient.R$drawable: int psp_rect
+org.gaminganywhere.gaclient.R$drawable: int psp_triangle
+org.gaminganywhere.gaclient.R$id
+org.gaminganywhere.gaclient.R$id: int LayoutMain
+org.gaminganywhere.gaclient.R$id: int action_connect
+org.gaminganywhere.gaclient.R$id: int action_delete
+org.gaminganywhere.gaclient.R$id: int action_edit
+org.gaminganywhere.gaclient.R$id: int action_new
+org.gaminganywhere.gaclient.R$id: int action_rename
+org.gaminganywhere.gaclient.R$id: int button_connect
+org.gaminganywhere.gaclient.R$id: int button_padsetup
+org.gaminganywhere.gaclient.R$id: int cb_builtin_audio
+org.gaminganywhere.gaclient.R$id: int cb_builtin_video
+org.gaminganywhere.gaclient.R$id: int cb_drop_late_vframe
+org.gaminganywhere.gaclient.R$id: int cb_portrait_mode
+org.gaminganywhere.gaclient.R$id: int cb_watchdog_timeout
+org.gaminganywhere.gaclient.R$id: int sb_drop_late_frame
+org.gaminganywhere.gaclient.R$id: int sb_watchdog_timeout
+org.gaminganywhere.gaclient.R$id: int spinner_control
+org.gaminganywhere.gaclient.R$id: int spinner_profile
+org.gaminganywhere.gaclient.R$id: int tv_controller
+org.gaminganywhere.gaclient.R$id: int tv_profile
+org.gaminganywhere.gaclient.R$layout
+org.gaminganywhere.gaclient.R$layout: int activity_main
+org.gaminganywhere.gaclient.R$menu
+org.gaminganywhere.gaclient.R$menu: int main
+org.gaminganywhere.gaclient.R$string
+org.gaminganywhere.gaclient.R$string: int action_settings
+org.gaminganywhere.gaclient.R$string: int app_name
+org.gaminganywhere.gaclient.R$string: int dummy_button
+org.gaminganywhere.gaclient.R$string: int dummy_content
+org.gaminganywhere.gaclient.R$string: int title_activity_player
+org.gaminganywhere.gaclient.R$style
+org.gaminganywhere.gaclient.R$style: int AppBaseTheme
+org.gaminganywhere.gaclient.R$style: int AppTheme
+org.gaminganywhere.gaclient.R$style: int ButtonBar
+org.gaminganywhere.gaclient.R$style: int ButtonBarButton
+org.gaminganywhere.gaclient.R$style: int FullscreenActionBarStyle
+org.gaminganywhere.gaclient.R$style: int FullscreenTheme
+org.gaminganywhere.gaclient.R$styleable
+org.gaminganywhere.gaclient.R$styleable: int[] ButtonBarContainerTheme
+org.gaminganywhere.gaclient.R$styleable: int ButtonBarContainerTheme_buttonBarButtonStyle
+org.gaminganywhere.gaclient.R$styleable: int ButtonBarContainerTheme_buttonBarStyle
+org.gaminganywhere.gaclient.R$xml
+org.gaminganywhere.gaclient.R$xml: int preference_profile
+org.gaminganywhere.gaclient.SettingsActivity
+org.gaminganywhere.gaclient.SettingsActivity: SettingsActivity()
+org.gaminganywhere.gaclient.util.Pad: void setPartitionEventListener(org.gaminganywhere.gaclient.util.Pad$PartitionEventListener)
+org.gaminganywhere.gaclient.util.Pad: void setDrawPartitionAll(boolean)
+org.gaminganywhere.gaclient.util.Pad: void setDrawPartitionLine(int[])
+org.gaminganywhere.gaclient.util.Pad: void setColorPad(int)
+org.gaminganywhere.gaclient.util.Pad: void setColorPadLine(int)
+org.gaminganywhere.gaclient.util.Pad: void setColorHotspot(int)
+org.gaminganywhere.gaclient.util.Pad: void setColorText(int)

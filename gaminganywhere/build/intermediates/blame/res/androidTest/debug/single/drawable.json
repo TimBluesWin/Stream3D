@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\psp_triangle.png",
+        "source": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\bundles\\debug\\res\\drawable\\psp_triangle.png"
+    },
+    {
+        "merged": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mouse32.png",
+        "source": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\bundles\\debug\\res\\drawable\\mouse32.png"
+    },
+    {
+        "merged": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\psp_circle.png",
+        "source": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\bundles\\debug\\res\\drawable\\psp_circle.png"
+    },
+    {
+        "merged": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\psp_rect.png",
+        "source": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\bundles\\debug\\res\\drawable\\psp_rect.png"
+    },
+    {
+        "merged": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\psp_cross.png",
+        "source": "C:\\Stream3D\\gaminganywhere\\build\\intermediates\\bundles\\debug\\res\\drawable\\psp_cross.png"
+    }
+]

@@ -1,0 +1,31 @@
+org.gaminganywhere.gaclient.BuildConfig
+org.gaminganywhere.gaclient.GAClient:
+    public native void sendMouseWheel(int,int)
+org.gaminganywhere.gaclient.GAConfigHelper:
+    public static final int dbVersion
+    public static final java.lang.String dbName
+org.gaminganywhere.gaclient.PlayerActivity:
+    public static final int MSG_SHOWTOAST
+    public static final int MSG_QUIT
+    public static final int MSG_RENDER
+    public static final int EXIT_NORMAL
+    public static final int EXIT_TIMEOUT
+    private static final int uiVisibility
+    102:102:public android.os.Handler getHandler()
+org.gaminganywhere.gaclient.util.GAController:
+    64:64:public static java.lang.String getName()
+    68:68:public static java.lang.String getDescription()
+    217:218:public void setEnableTouchClick(boolean)
+    275:278:public void sendMouseWheel(float,float)
+org.gaminganywhere.gaclient.util.GAControllerPadABXY:
+    49:49:public static java.lang.String getDescription()
+org.gaminganywhere.gaclient.util.GAControllerTemplate
+org.gaminganywhere.gaclient.util.Pad:
+    private static final double radiusRatio
+    private static final double centerPartSizeRatio
+    private static final float hotspotRatio
+org.gaminganywhere.gaclient.util.SDL2
+org.gaminganywhere.gaclient.util.SDL2$Button
+org.gaminganywhere.gaclient.util.SDL2$Keycode
+org.gaminganywhere.gaclient.util.SDL2$Keymod
+org.gaminganywhere.gaclient.util.SDL2$Scancode
