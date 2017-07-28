@@ -38,6 +38,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.text.InputType;
+import android.support.v7.app.AppCompatActivity;
 import android.view.DragEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -60,7 +61,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends Activity implements
+public class MainActivity extends AppCompatActivity implements
 	OnClickListener, OnItemSelectedListener, OnCheckedChangeListener, OnSeekBarChangeListener
 {
 

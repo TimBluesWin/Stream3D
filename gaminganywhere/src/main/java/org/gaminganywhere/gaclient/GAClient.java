@@ -18,6 +18,7 @@
 
 package org.gaminganywhere.gaclient;
 
+import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.HashMap;
 import android.app.Activity;
@@ -478,7 +479,11 @@ public class GAClient {
 		if(audioFormat == null)
 			return null;
 		//
-		adecoder = MediaCodec.createDecoderByType(audioFormat.getString(MediaFormat.KEY_MIME));
+		try {
+			adecoder = MediaCodec.createDecoderByType(audioFormat.getString(MediaFormat.KEY_MIME));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		if(adecoder == null)
 			return null;
 		adecoder.configure(audioFormat, null, null, 0);
@@ -593,7 +598,11 @@ public class GAClient {
 		if(videoFormat == null)
 			return null;
 		//
-		vdecoder = MediaCodec.createDecoderByType(videoFormat.getString(MediaFormat.KEY_MIME));
+		try {
+			vdecoder = MediaCodec.createDecoderByType(videoFormat.getString(MediaFormat.KEY_MIME));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		if(vdecoder == null)
 			return null;
 		try {

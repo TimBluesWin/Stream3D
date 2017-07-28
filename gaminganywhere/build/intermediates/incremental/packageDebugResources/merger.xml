@@ -22,7 +22,7 @@
         <item>mp3</item>
         <item>opus</item><item>vorbis</item>
         
-    </string-array><string name="dummy_content">DUMMY\nCONTENT</string></file><file path="C:\Stream3D\gaminganywhere\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+    </string-array><string name="dummy_content">DUMMY\nCONTENT</string></file><file path="C:\Stream3D\gaminganywhere\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
     </style><style name="ButtonBarButton"/><style name="ButtonBar">
         <item name="android:paddingLeft">2dp</item>
